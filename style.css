@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.offer-message {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+}
+
+.offer-message span {
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  padding: 2px 11px;
+}
+
+.offer-message p {
+  word-spacing: 2px;
+}
