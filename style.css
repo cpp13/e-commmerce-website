@@ -29,3 +29,60 @@ body {
 .offer-message p {
   word-spacing: 2px;
 }
+
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: rgb(235, 235, 235);
+}
+
+nav img {
+  height: 25px;
+  width: 25px;
+  opacity: 60%;
+}
+
+.first-nav p {
+  opacity: 60%;
+  margin-left: 80px;
+}
+
+.first-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.first-nav li a {
+  text-decoration: none;
+  color: black;
+  opacity: 60%;
+}
+
+.first-nav ul {
+  display: flex;
+  padding-right: 80px;
+}
+
+.first-nav li {
+  margin: 0 10px;
+  justify-content: space-around;
+}
+
+.second-nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+.second-nav h4 {
+  margin: 0 80px;
+}
+
+.second-nav ul {
+  display: flex;
+  justify-content: space-around;
+}
