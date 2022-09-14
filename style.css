@@ -76,13 +76,58 @@ nav img {
 .second-nav {
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 
 .second-nav h4 {
   margin: 0 80px;
+  border-right: solid 2px lightgrey;
+  height: 40px;
+  padding: 5px 25px;
+  /* background-color: red; */
 }
 
 .second-nav ul {
   display: flex;
+  gap: 10px;
   justify-content: space-around;
+  align-items: center;
+  border: solid 1px lightgray;
+  padding: 5px 15px;
+  border-radius: 30px;
+  
 }
+
+.second-nav ul img {
+  height: 25px;
+  width: auto;
+  position: relative;
+  top: 3px;
+}
+
+.profile{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile img{
+  height:35px;
+  width: auto;
+  border-radius: 20px;
+  padding: 2px;
+  border: 1px solid lightgray;
+}
+
+.second-nav button{
+  background-color: black;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 10px;
+
+}
+
+
+
