@@ -142,3 +142,43 @@ nav img {
 .button-wrap {
   flex: 0 0 15%;
 }
+
+.search-bar {
+  background-color: rgb(232, 107, 107);
+  height: 60px;
+  position: relative;
+}
+
+.search-bar label{
+  background-color: white;
+  padding: 10px 15px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: max-content ;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: -30%;
+  display: flex;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 5px;
+}
+
+.search-bar img{
+  width: auto;
+  height: 20px;
+  margin: 0 5px;
+}
+
+label input{
+  border: 0;
+  outline: none;
+}
+label input:focus{
+  border: 0;
+  outline: none;
+}
+label input::selection{
+  border: 0;
+  outline: none;
+}
