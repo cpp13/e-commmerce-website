@@ -30,6 +30,11 @@ body {
   word-spacing: 2px;
 }
 
+.title{
+  text-align: center;
+  margin: 25px;
+}
+
 ul {
   list-style: none;
 }
@@ -172,6 +177,7 @@ nav img {
 
 label input{
   border: 0;
+  width: 250px;
   outline: none;
 }
 label input:focus{
@@ -181,4 +187,88 @@ label input:focus{
 label input::selection{
   border: 0;
   outline: none;
+}
+/* center the content by using jsutify content center and give gap using gap property  */
+.category{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: center;
+}
+/* border to individual item | round those border */
+.category .round-outline{
+  border: solid rgba(112, 112, 112, 0.200) 0.5px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  
+  /* border-radius: */
+  /* width: max-content */
+  transition: border .3s ease;
+}
+.category .round-outline:hover{
+  border: solid rgba(112, 112, 112) 0.5px;
+}
+/* main element styling */
+main{
+  background-color: #EEF0F2;
+  /* give gray background */
+  min-height: 100vh;
+}
+main .container{
+  width: 90%;
+  display: grid;
+  /* give width of 90 or so percent and make it center */
+  grid-template-columns: 250px auto;
+  grid-template-rows: 200px auto ;
+  /* grid-template-rows: min-content auto ; */
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  grid-gap: 10px;
+  
+}
+
+.product-banner{
+  /* fist row 2 column */
+  background-color: green;
+}
+.products-grid{
+  /* 2nd row second column */
+  min-height: 1000px;
+  background-color: blue;
+}
+
+
+/* FF6262 */
+aside{
+  /* it shold take first column and 2 rows */
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  height: fit-content;
+  background-color: white;
+}
+aside ul{
+  padding: 0px;
+}
+aside ul .filter{
+  display: flex;
+  width: 90%;
+  margin: 5px auto;
+  justify-content: space-between;
+  align-items: center;
+  /* height: max-content; */
+}
+aside ul .filter p{
+  margin: 0;
+}
+aside ul .filter button{
+  padding: 5px 15px;
+  height: min-content;
+  width: min-content;
+  background-color: white;
+  border: solid 0.5px rgba(0, 0, 0, 0.33) ;
+  border-radius: 25px;
 }
